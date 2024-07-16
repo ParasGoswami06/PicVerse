@@ -12,7 +12,7 @@ Created Pinterest like features: Login SignUp, upload post, view post,feed and e
     ```sh
     npm install
     ```
-3. Create folder named <b>images</b>
+3. <b>IMPORTANT: </b>
     Create a folder named <b>images</b> inside <b>public</b> folder <br>
     Now inside <b>images</b> folder create another folder <b>uploads</b>
 

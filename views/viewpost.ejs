@@ -1,0 +1,11 @@
+<% include ./partials/header.ejs%>
+    <div class="w-full h-screen bg-zinc-800 text-white flex justify-center">
+        <div class="w-2/4 h-2/4 flex-col mt-12 justify-center items-center">
+            <div  class="flex justify-between items-center"><h1 class="text-xl pb-5"><b>Title:</b> <%= post.title%></h1>
+                <a href="/board/<%= post._id%>">board</a>
+            </div>
+           <img src="/images/uploads/<%= post.image%>" alt="">
+           <h1 class="pt-3"><b>Description:</b> <%= post.description%></h1>
+        </div>
+    </div>
+<% include ./partials/footer.ejs%>
